@@ -31,9 +31,9 @@ public class CopyOnWriteDemo{
 //        //wehen loop will end than only shoping list reference will refer new maodified list through java
 //        System.out.println("Mobified List is with Butter : "+shoppinglist);
 
-//        List<String> sharedList = new ArrayList<>(); //Arrya List is mot suporting this thing inserting ie reading and writing at same time
+       List<String> sharedList = new ArrayList<>(); //Arrya List is mot suporting this thing inserting ie reading and writing at same time
 
-        List<String> sharedList = new CopyOnWriteArrayList<>();//So CopyOnWriteArrayList can do that ArrayList cant
+        // List<String> sharedList = new CopyOnWriteArrayList<>();//So CopyOnWriteArrayList can do that ArrayList cant
         sharedList.add("Item1");
         sharedList.add("Item2");
         sharedList.add("Item2");
