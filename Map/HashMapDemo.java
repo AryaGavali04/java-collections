@@ -1,5 +1,5 @@
 import java.util.*;
-
+ 
 public class HashMapDemo {
     public static void main(String[] args){
 
@@ -14,6 +14,7 @@ public class HashMapDemo {
 
         String stud = map.get(3);
         System.out.println(stud);
+        
         String stud1 = map.get(99);
         System.out.println(stud);//null as key is not present
 

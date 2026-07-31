@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-            //when ever you make costun class make shoure to  make hashcod method and equals method
+            //when ever you make costun class make shoure to  make hashcode method and equals method
 public class HashCodeAndEqualsMethod {
     public static void main(String[] args){
         //creating person as key and desigation
